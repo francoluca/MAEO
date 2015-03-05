@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pan">
+
+    <ImageView
+        android:id="@+id/imageLefersa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lefersa"
+        android:layout_margin="50dp" />
+
+    <Button
+        android:id="@+id/buttonAgregarPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/boton_agregar_pedido"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonVerPedidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/boton_ver_pedidos"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/buttonAgregarCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/boton_nuevo_cliente"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/buttonVerClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/boton_ver_clientes"
+        android:textColor="#FFFFFF" />
+    
+
+</LinearLayout>

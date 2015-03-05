@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MAEO</string>
+    <string name="seleccion_cliente">Seleccione Cliente:</string>
+    <string name="Ingrese_pedidos">Ingrese Cantidad y Producto:</string>
+    <string name="fecha">Fecha(dd/mm/aa):</string>
+    <string name="boton_agregar_pedido">Agregar Pedido</string>
+    <string name="action_settings">Settings</string>
+    <string name="boton_nuevo_pedido">Nuevo Pedido</string>
+    <string name="boton_ver_pedidos">Ver Pedidos</string>
+    <string name="boton_ver_clientes">Ver Clientes</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="boton_aceptar_pedido">Aceptar</string>
+    <string name="codigo_cliente">Código:</string>
+    <string name="rut_cliente">RUT:</string>
+    <string name="razon_cliente">Razón Social:</string>
+    <string name="pago_cliente">Forma de Pago:</string>
+    <string name="direccion_cliente">Dirección:</string>
+    <string name="ciudad_cliente">Ciudad:</string>
+    <string name="telefono_cliente">Teléfono:</string>
+    <string name="celular_cliente">Celular:</string>
+    <string name="boton_agregar_cliente">Agregar</string>
+    <string name="boton_nuevo_cliente">Agregar Cliente</string>
+    <string name="boton_salir">Salir</string>
+
+</resources>

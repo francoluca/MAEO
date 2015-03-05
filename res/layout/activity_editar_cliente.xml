@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	
+    <TextView
+        android:id="@+id/textViewCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/codigo_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewRut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rut_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewRazon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/razon_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextRazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pago_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/direccion_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ciudad_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textViewCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/celular_cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <Button
+        android:id="@+id/buttonAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_aceptar_pedido" />
+    
+    
+</LinearLayout>

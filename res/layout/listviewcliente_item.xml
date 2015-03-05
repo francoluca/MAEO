@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"	
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical"
+				android:background="#FFFFFF"
+				android:padding="15dp">
+				
+		<TextView
+	        android:id="@+id/codigoCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+
+        <TextView
+	        android:id="@+id/rutCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+        
+        <TextView
+	        android:id="@+id/razonCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	       	android:textSize="25sp" />
+	
+	
+	    <TextView
+	        android:id="@+id/pagoCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+	    
+	    <TextView
+	        android:id="@+id/direccionCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+	    
+	    <TextView
+	        android:id="@+id/ciudadCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+	    
+	    <TextView
+	        android:id="@+id/telefonoCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"/>
+	    
+	    <TextView
+	        android:id="@+id/celularCliente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold" />
+	    
+
+					 		
+	</LinearLayout>
